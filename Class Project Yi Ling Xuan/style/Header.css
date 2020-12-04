@@ -1,0 +1,117 @@
+.header {
+	padding: 10px 20px;
+	background-color: #fff;
+	border-bottom: 2px solid #4370f5;
+	position: relative;
+	height: 160px;
+	padding-right: 0;
+	color: #4370f5;
+}
+
+.header .logo-main {
+	padding-top: 10px;
+	overflow: hidden;
+	float: left;
+	color: #fff;
+}
+
+.header .logo-main .logo {
+	width: 200px;
+	height: 100px;
+	background-color: #4370f5;
+	padding-top: 30px;
+	padding-left: 16px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.header .nav {
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	right: 0;
+	color: #4370f5;
+	bottom: 10px;
+}
+
+.header .nav li {
+	float: right;
+	margin: 0 10px;
+}
+
+.header .nav li a {
+	display: block;
+}
+
+.header .top {
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+.header .top ul li {
+	float: right;
+	padding: 0 4px;
+	margin: 0 4px;
+	font-size: 14px;
+}
+
+.header .top ul li:nth-child(2) {
+	border-right: 1px solid #4370f5;
+}
+
+.header .search {
+	float: right;
+	width: 380px;
+	height: 50px;
+	margin-top: 46px;
+	margin-right: 8px;
+}
+
+.header .search form {
+	height: 30px;
+	position: relative;
+	float: right;
+}
+
+.header .search form input {
+	height: 30px;
+	padding: 0 14px;
+	border: 1px solid #4370f5;
+}
+
+.header .search img {
+	width: 24px;
+}
+
+.header .search span {
+	margin: 0 10px;
+	padding: 0 10px;
+	border-left: 1px solid #4370f5;
+}
+
+.header .search form img {
+	position: absolute;
+	right: 14px;
+	top: 0;
+	width: 20px;
+	margin-top: 5px;
+}
+
+.header .search .index-icon {
+	transform: translate(0,3px);
+}
+
+.search form input[type=submit] {
+	position: absolute;
+	right: 14px;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.header .nav a{
+	color: #4370f5;
+}

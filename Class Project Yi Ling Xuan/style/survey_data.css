@@ -1,0 +1,25 @@
+.content form label {
+    display: block;
+    margin: 20px 0;
+}
+
+.content form label div.t {
+    float: left;
+    width: 20ch;
+}
+
+.content textarea {
+    vertical-align:top;
+}
+
+.content input[type=text] {
+    height: 30px;
+    width: 200px;
+}
+
+.content input[type=submit] {
+    background-color:  #4370f5;
+    padding: 7px 14px;
+    border: none;
+    color: #fff;
+}

@@ -1,0 +1,74 @@
+a.cdg-content {
+	position: relative;
+	display: inline-block;
+}
+
+a.cdg-content img {
+	vertical-align: top;
+}
+
+a.cdg-content span {
+	opacity: 0.5;
+	width: 24px;
+	height: 14px;
+	font-size: 10px;
+	display: block;
+	text-align: center;
+	line-height: 14px;
+}
+
+.w1 span,.w2 span,.w3 span,.w4 span {
+	background: #fff;
+	color: #aaa;
+	position: absolute;
+}
+
+.w1 span {
+	left: 1px;
+	top: 1px;
+}
+
+.w2 span {
+	right: 1px;
+	top: 1px;
+}
+
+.w3 span {
+	left: 1px;
+	bottom: 1px;
+}
+
+.w4 span {
+	right: 1px;
+	bottom: 1px;
+}
+
+.b1 span,.b2 span,.b3 span,.b4 span {
+	background: #000;
+	color: #fff;
+	position: absolute;
+}
+
+.b1 span {
+	left: 1px;
+	top: 1px;
+}
+
+.b2 span {
+	right: 1px;
+	top: 1px;
+}
+
+.b3 span {
+	left: 1px;
+	bottom: 1px;
+}
+
+.b4 span {
+	right: 1px;
+	bottom: 1px;
+}
+
+#ad{
+    display: none;
+}

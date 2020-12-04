@@ -1,0 +1,43 @@
+body {
+	width: 1060px;
+	margin: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+p {
+	margin: 0;
+}
+
+html,body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background: #fff;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tuxedo Cat Coffee</title>
+    <link type="text/css" rel="stylesheet" href="cafe.css">
+    <script src="cafe.js"></script>
+    <script>
+        function cyh1(x){
+            x.src="images/scone_info.jpg";
+        }
+        function c1(x){
+            x.src="images/scone.jpg";
+        }
+        function cyh2(x){
+            x.src="images/biscotti_info.jpg";
+        }
+        function c2(x){
+            x.src="images/biscotti.jpg";
+        }
+        function cyh3(x){
+            x.src="images/coffee_info.jpg";
+        }
+        function c3(x){
+            x.src="images/coffee.jpg";
+        }
+        function cyh4(x){
+            x.src="images/cappuccino_info.jpg";
+        }
+        function c4(x){
+            x.src="images/cappuccino.jpg";
+        }
+        function cyh5(x){
+            x.src="images/latte_info.jpg";
+        }
+        function c5(x){
+            x.src="images/latte.jpg";
+        }
+        function cyh6(x){
+            x.src="images/espresso_info.jpg";
+        }
+        function c6(x){
+            x.src="images/espresso.jpg";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Tuxedo Cat Coffee"/>
+    </header>
+    <main>
+        <form id="order_form" name="order_form" action="checkout.html" method="get">
+            <section id="menu">
+            	<h2>Menu</h2>
+            	<p>Click an item to add it to your order.</p>
+            	<ul>
+            		<li><a href="#"><img onmouseover="ylx6(this)" onmouseout="y6(this)" id="coffee1" src="images/espresso.jpg" alt="espresso"/></a></li>
+            		<li><a href="#"><img onmouseover="ylx5(this)" onmouseout="y5(this)" id="coffee2" src="images/latte.jpg" alt="latte"/></a></li>
+            		<li><a href="#"><img onmouseover="ylx4(this)" onmouseout="y4(this)" id="coffee3" src="images/cappuccino.jpg" alt="cappuccino"/></a></li>
+            		<li><a href="#"><img onmouseover="ylx3(this)" onmouseout="y3(this)" id="coffee4" src="images/coffee.jpg" alt="coffee"/></a></li>
+            		<li><a href="#"><img onmouseover="ylx2(this)" onmouseout="y2(this)" id="coffee5" src="images/biscotti.jpg" alt="biscotti"/></a></li>
+            		<li><a href="#"><img onmouseover="ylx1(this)" onmouseout="y1(this)" id="coffee6" src="images/scone.jpg" alt="scone"/></a></li>
+            	</ul>
+            </section>
+
+            <section>
+            	<h2>Your Order</h2>
+            	<section>
+            		<select id="order" name="order" size="6">
+            		</select>
+            		<p id="total">&nbsp;</p>            		
+           		</section>
+            	<section id="buttons">
+           			<input type="button" name="place_order" id="place_order" value="Place Order">
+           			<input type="button" name="clear_order" id="clear_order" value="Clear Order">				            		
+            	</section>
+            </section>   
+
+
+
+        </form>
+    </main> 
+</body>
+</html>
